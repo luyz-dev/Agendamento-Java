@@ -326,7 +326,7 @@ public class MedicoDialog extends javax.swing.JDialog {
     }//GEN-LAST:event_buttonCancelarActionPerformed
 
     private void buttonTirarEspecialidadeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonTirarEspecialidadeActionPerformed
-        if (jlistListaDeEspecialidades.isSelectionEmpty() == false) {
+        if (jlistListaDeEspecialidadesDoMedicos.isSelectionEmpty() == false) {
             ArrayList<Especialidade> listaAtualizada = new ArrayList<>();
             int tamanho = jlistListaDeEspecialidadesDoMedicos.getModel().getSize();
             for (int c = 0; c < tamanho; c++) {
